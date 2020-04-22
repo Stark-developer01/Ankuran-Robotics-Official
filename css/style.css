@@ -54,7 +54,7 @@ ul
 .dark
 {
     padding: 20px;
-    background-color: rgb(255, 102, 102);
+    background-color: rgb(255, 44, 44);
     color: #1d1919;
     margin-top: 15px;
     margin-bottom: 20px;
@@ -99,7 +99,7 @@ ul
 .dark3
 {
     padding: 15px;
-    background-color:  rgb(255, 102, 102);
+    background-color:  rgb(255, 44, 133);
     color: #1d1919;
     margin-top: 10px;
     font-family: cursive;
@@ -313,7 +313,7 @@ header a:hover
     margin-top: 250px;
     font-size: 100px;
     margin-bottom: 10px;
-    color: rgb(255, 44, 44);
+    color:  rgb(255, 44, 44);
     font-family: 'Times New Roman', Times, serif;
 }
 
@@ -322,7 +322,7 @@ header a:hover
 {
     font-size: 50px;
     font-family: 'Times New Roman', Times, serif;
-    color: darkred;
+    color: rgb(255, 25, 100);
     font: outline;
     font-weight: 900;
     font-style: italic;
@@ -511,6 +511,17 @@ footer
         font-family: cursive;
         font-weight: 700;
     }   
+
+    .dark3
+    {
+        padding: 15px;
+        background-color:  rgb(255, 116, 116);
+        color: #1d1919;
+        margin-top: 10px;
+        font-family: cursive;
+        font-weight: 700; 
+        font-size: 18px;
+    }
 
     aside#sidebar3
     {
