@@ -495,10 +495,68 @@ footer
     #Newsletter form,
     #boxes .box,
     article#main-col,
-    aside#sidebar, aside#sidebar2, aside#sidebar3{
+    aside#sidebar, aside#sidebar2{
       float:none;
       text-align:center;
       width:100%;
+    }
+
+    aside#sidebar3
+    {
+        text-align: center;
+        width: 80%;
+    }
+
+    .btn
+    {
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+        background-color: #35424a;
+        margin: 50px;
+        border-radius: 30%;
+        box-shadow: none;
+        color:  rgb(255, 44, 44);
+        overflow: hidden;
+        position: relative;
+        font-size: medium;
+        margin-left: 120px;
+    }
+
+    .btn i
+    {
+        line-height: 90px;
+        font-size: 78px;
+        transition: none;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        margin-left: 13px;
+        margin-right: 22px;
+    }
+
+    .btn:hover i
+    {
+        transform: none;
+        color: none;
+    }
+
+    .btn::before
+    {
+        content: "";
+        position: none;
+        width: none;
+        height: none;
+        background-color: none;
+        transform: none;
+        left: none;
+        top: none;
+    }
+
+    .btn:hover::before
+    {
+        animation: none;
+        top: none;
+        left: none;
     }
   
     header{
