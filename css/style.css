@@ -511,8 +511,8 @@ footer
     .btn
     {
         display: inline-block;
-        width: 60px;
-        height: 60px;
+        width: 80px;
+        height: 80px;
         background-color: #35424a;
         margin: 50px;
         border-radius: 30%;
@@ -526,8 +526,8 @@ footer
 
     .btn i
     {
-        line-height: 90px;
-        font-size: 78px;
+        line-height: 40px;
+        font-size: 40px;
         transition: none;
         margin-top: 10px;
         margin-bottom: 20px;
