@@ -501,6 +501,17 @@ footer
       width:100%;
     }
 
+    .dark
+    {
+        padding: 20px;
+        background-color: rgb(255, 102, 102);
+        color: #1d1919;
+        margin-top: 15px;
+        margin-bottom: 20px;
+        font-family: cursive;
+        font-weight: 700;
+    }   
+
     aside#sidebar3
     {
         text-align: center;
