@@ -495,7 +495,7 @@ footer
     #Newsletter form,
     #boxes .box,
     article#main-col,
-    aside#sidebar, aside#sidebar2{
+    aside#sidebar, aside#sidebar2, aside#sidebar3{
       float:none;
       text-align:center;
       width:100%;
