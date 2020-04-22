@@ -505,6 +505,7 @@ footer
     {
         text-align: center;
         width: 80%;
+        float: none;
     }
 
     .btn
@@ -533,31 +534,6 @@ footer
         margin-left: 13px;
         margin-right: 22px;
     }
-
-    .btn:hover i
-    {
-        transform: none;
-        color: none;
-    }
-
-    .btn::before
-    {
-        content: "";
-        position: none;
-        width: none;
-        height: none;
-        background-color: none;
-        transform: none;
-        left: none;
-        top: none;
-    }
-
-    .btn:hover::before
-    {
-        animation: none;
-        top: none;
-        left: none;
-    }
   
     header{
       padding-bottom:20px;
@@ -579,11 +555,6 @@ footer
     #Newsletter button, .quote button{
       display:block;
       width:100%;
-    }
-  
-    #Newsletter form input[type="email"], .quote input, .quote textarea{
-      width:100%;
-      margin-bottom:5px;
     }
   }
   
