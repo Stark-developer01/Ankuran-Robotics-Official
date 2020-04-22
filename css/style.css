@@ -504,7 +504,7 @@ footer
     .dark
     {
         padding: 20px;
-        background-color: rgb(255, 102, 102);
+        background-color: rgb(255, 133, 133);
         color: #1d1919;
         margin-top: 15px;
         margin-bottom: 20px;
@@ -518,6 +518,17 @@ footer
         width: 100%;
         float: none;
         margin-left: 5px;
+    }
+
+    .specialstyle
+    {
+        padding: 10px;
+        background-color: rgb(255, 119, 119);
+        color: #35424a;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-style: oblique;
+        font-weight: bolder;
+        font-size: 20px;
     }
 
     .button_1
