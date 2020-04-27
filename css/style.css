@@ -567,10 +567,9 @@ footer {
 
 @media(max-width: 768px) {
 
-
     header nav,
+    header nav li,
     header #branding,
-    header ul li a .name,
     #Newsletter h1,
     #Newsletter form,
     #boxes .box,
